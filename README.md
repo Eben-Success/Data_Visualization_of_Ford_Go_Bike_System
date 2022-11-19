@@ -53,6 +53,15 @@ After careful investigation, I made the following deduction:
 - Most trips have duration less than 10 minutes
 - The duration of trips take huge amount of values and is denser at the left. So, I looked at it in log transform and found that peak occurs at 600 seconds starting from 0 and then distribution starts to drop and does not regain any more peak value.
 
+<div align="center" >
+ <h4>Example Univariate Analysis using seaborn library</h4>
+ 
+ ![image](https://user-images.githubusercontent.com/71809927/202839950-b3eb8693-85d3-46a8-9b10-9a22a30e0c89.png)
+
+</div>
+
+
+
 ### <a id="bivariate">Bivariate Exploratory Data Analysis</a>
 Similarly, in the bivariate process, I answer the following questions through visualizations of bar graph, histogram, boxplot and violinplot.
 
@@ -65,6 +74,16 @@ After careful investigation, I made the following deduction:
 - Most people hire bikes on the weekends (Sunday and Saturday).
 - Most the customers are between the ages of 30 and 39. While the age range of  majority of subscribers is 30 and 41 years. 
 - The median ages of both male and females are identical. 
+
+<div align="center" >
+ <h4>Example of Bivariate analysis using Matplotlib</h4>
+ 
+ ![image](https://user-images.githubusercontent.com/71809927/202840089-b3f60fb7-46ef-4121-a7fc-05584fd78484.png)
+
+ 
+</div>
+
+
 
 
 ### <a id="multivariate">Multivariate Exploratory Data Analysis</a>
@@ -79,6 +98,16 @@ After careful investigation of the relationship between the variables, I conclud
 * The  "other" gender have the largest median accross board.
 * "Other" gender have the most average duration trip from Monday to Sunday. They have the highest duration on Sunday.
 * From the chart, it confirms that the "other" user_type spend more duration_min on trips and they also occur majority of the users.
+
+<div align="center" >
+ <h4>Example of Multivariate analysis using Matplotlib</h4>
+ 
+ ![image](https://user-images.githubusercontent.com/71809927/202840630-08fc78d9-b527-453b-8546-82bb11acb707.png)
+ 
+</div>
+
+
+
 
 #### Summary
 * Bike rentals is prominent among subscribers rather than customers. This implies, subscribers gets discounts or special rates.
